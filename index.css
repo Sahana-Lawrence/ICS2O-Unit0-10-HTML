@@ -1,7 +1,5 @@
 body {
-  background-image: url('./images/blue.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: lightblue;
 }
 
 h1 {
@@ -74,4 +72,22 @@ td {
   content: "";
   clear: both;
   display: table;
+}
+
+.absolute {
+  position: absolute;
+  top: 2000px;
+  left: 300px;
+  width: 430px;
+  height: 245px;
+  border: 3px solid teal;
+}
+
+.absolute2 {
+  position: absolute;
+  top: 2000px;
+  right: 180px;
+  width: 430px;
+  height: 222px;
+  border: 10px solid teal;
 }
